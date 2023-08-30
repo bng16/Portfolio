@@ -1,1 +1,58 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@700&family=Geologica&family=Roboto:ital,wght@0,900;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#main{
+    background-color: #E3FCFE;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+#top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#top img{
+    width: 40vw;
+}
+
+
+#bot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#bot img{
+    width: 3VW;
+}
+
+#bot a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+
+    text-decoration: none;
+}
