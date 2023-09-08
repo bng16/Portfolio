@@ -19,12 +19,12 @@ body{
     background-position: center;
 }
 
-/* ///////// container1 ////////// */
+/* ======== container1 ========= */
 .container1{
     padding: 10px 10%;
 }
 
-/* ///////// nav /////// */
+/* ====== nav ====== */
 nav{
 display: flex;
 align-items: center;
@@ -32,7 +32,7 @@ justify-content: space-between;
 flex-wrap: wrap;
 }
 
-/* /////// logo ////// */
+/* ========= logo ====== */
 .logo{
     width: 140px;
 }
@@ -67,7 +67,10 @@ nav ul li a:hover::after{
 
 }
 
-/* ////header-text */
+/* ======
+
+
+header-text====== */
 .header-text{
     margin-top: 20%;
     font-size: 30px;
@@ -420,3 +423,5 @@ nav .fas{
         cursor: pointer;
     }
 }
+
+/*  */
