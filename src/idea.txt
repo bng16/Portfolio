@@ -1,0 +1,9 @@
+Home / Introduction Page
+About Me Page
+Projects / Portfolio Page
+Skills / Experience Page
+Resume / CV Page
+Blog / Articles Page
+Testimonials / Reviews Page
+Contact Page
+404 / Error Page
