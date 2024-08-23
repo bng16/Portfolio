@@ -6,7 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: ["New Amsterdam", "system-ui"],
+      fontFamily: {
+        'og': ['Overused Grotesk', 'sans-serif'],
+      },
+      fontWeight: {
+        black: 900,
+        bold: 700,
+        normal: 400,
+        light: 300,
+      },
     },
   },
   plugins: [],
