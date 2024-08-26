@@ -2,7 +2,8 @@
 import './index.css';
 
 //! Components imports:---
-import Home from './pages/home/Home';
+import Hero from './pages/hero/Hero';
+import Navbar from './components/Navbar';
 
 //! React imports:---
 
@@ -18,9 +19,10 @@ import Home from './pages/home/Home';
 function App() {
 
   return (
-    <>
-      <Home/>
-    </>
+    <main className='font-og relative'>
+    <Navbar/>
+    <Hero/>
+    </main>
   )
 }
 

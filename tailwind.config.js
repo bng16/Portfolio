@@ -15,6 +15,11 @@ export default {
         normal: 400,
         light: 300,
       },
+      colors: {
+        'primary': '#FFFFFF',
+        'secondary': '#020203',
+        'tertiary': '#E7312A',
+      },
     },
   },
   plugins: [],
