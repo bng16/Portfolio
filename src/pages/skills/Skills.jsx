@@ -25,26 +25,27 @@ function Skills() {
     <div className='relative w-full h-screen flex justify-center items-center '>
       <h1 className='text-[10vw] font-black '><span className='text-tertiary'>!</span> SKILLS <span className='text-tertiary'>!</span></h1>
       
-      <img src={htmlLogo} alt="HTML Logo" className="w-[10vw] absolute" style={{ top: '10%', left: '20%' }} />
-      <img src={cssLogo} alt="CSS Logo" className="w-[10vw] absolute" style={{ top: '10%', left: '77%' }} />
-      <img src={jsLogo} alt="JavaScript Logo" className="w-[12vw] absolute" style={{ top: '65%', left: '40%' }} />
-      <img src={tailwindLogo} alt="Tailwind CSS Logo" className="w-[8vw] absolute" style={{ top: '75%', left: '70%' }} />
-      <img src={reactLogo} alt="React Logo" className="w-[10vw] absolute" style={{ top: '60%', left: '15%' }} />
-      <img src={gsapLogo} alt="GSAP Logo" className="w-[10vw] absolute" style={{ top: '8%', left: '50%' }} />
-      <img src={tsLogo} alt="TypeScript Logo" className="w-[6vw] absolute" style={{ top: '40%', left: '10%' }} />
-      <img src={daisyUiLogo} alt="Daisy UI Logo" className="w-[5vw] absolute" style={{ top: '60%', left: '90%' }} />
-      <img src={reactRouterLogo} alt="React Router Logo" className="w-[5vw] absolute" style={{ top: '75%', left: '30%' }} />
-      <img src={reduxLogo} alt="Redux Logo" className="w-[5vw] absolute" style={{ top: '80%', left: '5%' }} />
-      <img src={nextLogo} alt="Next.js Logo" className="w-[5vw] absolute" style={{ top: '5%', left: '5%' }} />
-      <img src={famerLogo} alt="Framer Motion Logo" className="w-[3vw] absolute" style={{ top: '10%', left: '65%' }} />
-      <img src={bootstrapLogo} alt="Bootstrap Logo" className="w-[3vw] absolute" style={{ top: '30%', left: '35%' }} />
-      <img src={gitLogo} alt="Git Logo" className="w-[5vw] absolute" style={{ top: '35%', left: '90%' }} />
-      <img src={gitHubLogo} alt="GitHub Logo" className="w-[5vw] absolute" style={{ top: '45%', left: '75%' }} />
-      <img src={figmaLogo} alt="Figma Logo" className="w-[3vw] absolute" style={{ top: '85%', left: '85%' }} />
-      <img src={canvaLogo} alt="Canva Logo" className="w-[4vw] absolute" style={{ top: '5%', left: '92%' }} />
-      <img src={keyBrLogo} alt="Keybr Logo" className="w-[3vw] absolute" style={{ top: '70%', left: '60%' }} />
-      <img src={typingClubLogo} alt="TypingClub Logo" className="w-[5vw] absolute" style={{ top: '10%', left: '40%' }} />
-      <img src={vercelLogo} alt="Vercel Logo" className="w-[5vw] absolute" style={{ top: '30%', left: '70%' }} />
+      <img src={htmlLogo} alt="HTML Logo" className="w-[10vw] absolute" style={{ top: '10%', left: '20%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={cssLogo} alt="CSS Logo" className="w-[10vw] absolute" style={{ top: '10%', left: '77%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={jsLogo} alt="JavaScript Logo" className="w-[12vw] absolute" style={{ top: '65%', left: '40%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={tailwindLogo} alt="Tailwind CSS Logo" className="w-[8vw] absolute" style={{ top: '75%', left: '70%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={reactLogo} alt="React Logo" className="w-[10vw] absolute" style={{ top: '60%', left: '15%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={gsapLogo} alt="GSAP Logo" className="w-[10vw] absolute" style={{ top: '8%', left: '50%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={tsLogo} alt="TypeScript Logo" className="w-[6vw] absolute" style={{ top: '40%', left: '10%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={daisyUiLogo} alt="Daisy UI Logo" className="w-[5vw] absolute" style={{ top: '60%', left: '90%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={reactRouterLogo} alt="React Router Logo" className="w-[5vw] absolute" style={{ top: '75%', left: '30%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={reduxLogo} alt="Redux Logo" className="w-[5vw] absolute" style={{ top: '80%', left: '5%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={nextLogo} alt="Next.js Logo" className="w-[5vw] absolute" style={{ top: '5%', left: '5%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={famerLogo} alt="Framer Motion Logo" className="w-[3vw] absolute" style={{ top: '10%', left: '65%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={bootstrapLogo} alt="Bootstrap Logo" className="w-[3vw] absolute" style={{ top: '30%', left: '35%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={gitLogo} alt="Git Logo" className="w-[5vw] absolute" style={{ top: '35%', left: '90%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={gitHubLogo} alt="GitHub Logo" className="w-[5vw] absolute" style={{ top: '45%', left: '75%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={figmaLogo} alt="Figma Logo" className="w-[3vw] absolute" style={{ top: '85%', left: '85%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={canvaLogo} alt="Canva Logo" className="w-[4vw] absolute" style={{ top: '5%', left: '92%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={keyBrLogo} alt="Keybr Logo" className="w-[3vw] absolute" style={{ top: '70%', left: '60%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={typingClubLogo} alt="TypingClub Logo" className="w-[5vw] absolute" style={{ top: '10%', left: '40%', filter: 'blur(100px)', opacity: '0' }} />
+      <img src={vercelLogo} alt="Vercel Logo" className="w-[5vw] absolute" style={{ top: '30%', left: '70%', filter: 'blur(100px)', opacity: '0' }} />
+
 
       <div className='absolute w-full bg-primary z-[99]'></div>
 
