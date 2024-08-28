@@ -22,7 +22,7 @@ function Projects() {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: mainSectionRef.current,
-        markers: true,
+        // markers: true,
         start: '38% 50%',
         end: '1500% 50%',
         scrub: 1,

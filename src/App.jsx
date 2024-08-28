@@ -14,6 +14,7 @@ import Contact from './pages/contact/Contact';
 
 
 //! GSAP imports:---
+import LocomotiveScroll from 'locomotive-scroll';
 
 
 //! Other imports:---
@@ -22,16 +23,18 @@ import Contact from './pages/contact/Contact';
 
 
 function App() {
+const locomotiveScroll = new LocomotiveScroll();
+
 
   return (
     <main className='font-og relative'>
-    <Navbar/>
+    {/* <Navbar/>
     <Hero/>
     <HeroEnd/>
-    <Skills/>
+    <Skills/> */}
     <SlidingProject/>
-    <Projects/>
-    <Contact/>
+    {/* <Projects/>
+    <Contact/> */}
     </main>
   )
 }
