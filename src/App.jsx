@@ -2,8 +2,9 @@
 import './index.css';
 
 //! Components imports:---
-import Hero from './pages/hero/Hero';
 import Navbar from './components/Navbar';
+import Hero from './pages/hero/Hero';
+import HeroEnd from "./components/HeroEnd";
 import Skills from "./pages/skills/Skills";
 import SlidingProject from './components/SlidingProject';
 
@@ -22,9 +23,10 @@ function App() {
 
   return (
     <main className='font-og relative'>
-    {/* <Navbar/>
+    <Navbar/>
     <Hero/>
-    <Skills/> */}
+    <HeroEnd/>
+    <Skills/>
     <SlidingProject/>
     </main>
   )

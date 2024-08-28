@@ -16,7 +16,7 @@ function Hero() {
       </div>
       <div className=" w-1/3 h-screen flex flex-col">
         <div className="flex-grow"></div>
-        <img src={BngImage} alt="" className="w-full object-cover" />
+        <img src={BngImage} alt="image of Biswajit Nag" className="w-full object-cover" />
       </div>
     </div>
   );
