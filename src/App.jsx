@@ -7,6 +7,8 @@ import Hero from './pages/hero/Hero';
 import HeroEnd from "./components/HeroEnd";
 import Skills from "./pages/skills/Skills";
 import SlidingProject from './components/SlidingProject';
+import Projects from './pages/projects/Projects';
+import Contact from './pages/contact/Contact';
 
 //! React imports:---
 
@@ -28,6 +30,8 @@ function App() {
     <HeroEnd/>
     <Skills/>
     <SlidingProject/>
+    <Projects/>
+    <Contact/>
     </main>
   )
 }
