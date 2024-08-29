@@ -2,10 +2,10 @@
 import './index.css';
 
 //! Components imports:---
-import Navbar from './components/Navbar';
+import Navbar from "./pages/navbar/Navbar"
 import Hero from './pages/hero/Hero';
 import Skills from "./pages/skills/Skills";
-import SlidingProject from './components/SlidingProject';
+import SlidingProject from './pages/projects/SlidingProject';
 import Projects from './pages/projects/Projects';
 import Contact from './pages/contact/Contact';
 
@@ -27,12 +27,12 @@ const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <main className='font-og relative bg-primary'>
-    <Navbar/>
+    {/* <Navbar/>
     <Hero/>
-    <Skills/>
+    <Skills/> */}
     <SlidingProject/>
-    <Projects/>
-    <Contact/>
+    {/* <Projects/>
+    <Contact/> */}
     </main>
   )
 }

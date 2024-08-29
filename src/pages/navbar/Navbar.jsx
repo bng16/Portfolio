@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-import Navitems from "./NavItems";
+import Navitems from './NavItems';
 
 
 function Navbar() {

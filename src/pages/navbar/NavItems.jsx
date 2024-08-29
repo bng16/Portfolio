@@ -1,7 +1,7 @@
-import xIcon from '../assets/logo/Social/x.png';
-import Linkedin from "../assets/logo/Social/linkedin.png";
-import GitHub from "../assets/logo/Social/github.png";
-import Insta from "../assets/logo/Social/insta.png";
+import xIcon from '../../assets/logo/Social/x.png';
+import Linkedin from "../../assets/logo/Social/linkedin.png";
+import GitHub from "../../assets/logo/Social/github.png";
+import Insta from "../../assets/logo/Social/insta.png";
 
 
 
