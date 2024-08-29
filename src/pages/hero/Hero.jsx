@@ -1,8 +1,35 @@
 import BngImage from '../../assets/Images/BngImage.png';
+import HeroEnd from "./HeroEnd";
+
+import { useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useGSAP } from '@gsap/react';
+
+gsap.registerPlugin(ScrollTrigger);
 
 function Hero() {
+  const heroEndRef = useRef(null);
+
+  useGSAP(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: '#heroMain',
+        // markers: true,
+        start: '50% 50%',
+        end: '200% 50%',
+        scrub: 1,
+        pin: true,
+      },
+    });
+
+    tl.to(heroEndRef.current, {
+      top: "50vh", // Move HeroEnd to 40vh from the top of the viewport
+    },'a')
+  }, []);
+
   return (
-    <div className="w-full h-screen flex">
+    <div id='heroMain' className="w-full h-screen flex relative">
       <div className="w-2/3 h-screen flex flex-col gap-6 justify-center items-center">
         <h1 className="font-black text-[10vw] leading-none tracking-tighter">
           BISWAJIT NAG<span className="text-tertiary">.</span>
@@ -14,10 +41,12 @@ function Hero() {
           CONTACT ME
         </button>
       </div>
-      <div className=" w-1/3 h-screen flex flex-col">
+      <div className="w-1/3 h-screen flex flex-col">
         <div className="flex-grow"></div>
         <img src={BngImage} alt="image of Biswajit Nag" className="w-full object-cover" />
       </div>
+
+      <HeroEnd endRef={heroEndRef} />
     </div>
   );
 }

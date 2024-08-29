@@ -4,7 +4,6 @@ import './index.css';
 //! Components imports:---
 import Navbar from './components/Navbar';
 import Hero from './pages/hero/Hero';
-import HeroEnd from "./components/HeroEnd";
 import Skills from "./pages/skills/Skills";
 import SlidingProject from './components/SlidingProject';
 import Projects from './pages/projects/Projects';
@@ -30,7 +29,6 @@ const locomotiveScroll = new LocomotiveScroll();
     <main className='font-og relative'>
     <Navbar/>
     <Hero/>
-    <HeroEnd/>
     <Skills/>
     <SlidingProject/>
     <Projects/>
