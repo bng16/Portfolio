@@ -1,0 +1,271 @@
+[33mcommit c87799b30bfafa1f748ecd1b001d190f77008e75[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Thu Aug 29 12:17:59 2024 +0530
+
+    resolved the bug and bring it to normal (contact page and project page)
+
+[33mcommit c67bd70f7e8ab08b7bde7d0a5dcbb8594ed0c359[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Wed Aug 28 21:34:02 2024 +0530
+
+    project slider initial animation done
+
+[33mcommit 2028f03638e10306f3142cfb28232f53d10f9a47[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Wed Aug 28 21:20:30 2024 +0530
+
+    skill and project section animation done
+
+[33mcommit a1bc6f06dbc83286e54119536036d346b5cd4dad[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Wed Aug 28 19:43:06 2024 +0530
+
+    project page is done
+
+[33mcommit 26c7ba0dcb972b4a0b2efa5fccc3aedbccfddca0[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Wed Aug 28 18:36:50 2024 +0530
+
+    contact page done
+
+[33mcommit c2fbf9b25a71c61476d15b4e37d21dd08d390f5a[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Wed Aug 28 16:21:29 2024 +0530
+
+    image update hero end done
+
+[33mcommit 11488edf3d0d95d4271e6297fb4e84e91f845737[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Tue Aug 27 23:55:00 2024 +0530
+
+    sliding page before projects done
+
+[33mcommit ecf65f34531fa3d8ae3057e0c09f8d00b81cd604[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Tue Aug 27 19:38:35 2024 +0530
+
+    project slider animation done
+
+[33mcommit 2b31ab1902d581d2f0e5ef1a8dd1825e7397a934[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Tue Aug 27 16:56:16 2024 +0530
+
+    skills section done
+
+[33mcommit b0dc981148cee2124605487393817a966a14fd83[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Mon Aug 26 22:31:43 2024 +0530
+
+    navbar and hero page done
+
+[33mcommit dfd437c81334702e5cdeae2cc692c794a35915a6[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Sun Aug 25 21:31:13 2024 +0530
+
+    asset updated
+
+[33mcommit f322344c77704c035c0db6fb9a48a8157c836324[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Sun Aug 25 16:34:57 2024 +0530
+
+    img of all the tech is added
+
+[33mcommit d106bf87d5cc82052b1cc856722dc79f6fc305e6[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Sat Aug 24 18:54:47 2024 +0530
+
+    logo update
+
+[33mcommit 71e4b373261322f0a9f64ae7845ef7a47bb98560[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Fri Aug 23 23:23:10 2024 +0530
+
+    1.Font setup 2.structured the app.jsx for the starting of project
+
+[33mcommit 42ab35f37eaaf476963de2ecbfc01384b2d5e27a[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Mon Aug 19 13:34:42 2024 +0530
+
+    minor change
+
+[33mcommit ab13e1d18fbef41e9373eededc806a7b84f8b149[m[33m ([m[1;32mmaster[m[33m)[m
+Author: bng16 <biswajitnag161619@gmail.com>
+Date:   Sun Aug 18 18:47:58 2024 +0530
+
+    fresh first commit
+
+[33mcommit b831a126cbb264211e8a5e148ef7131f44a6e61c[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sun Aug 18 18:26:09 2024 +0530
+
+    Delete try.txt
+
+[33mcommit dd5cb8a824b8cb96769b151bca07407a33e95a85[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sun Aug 18 18:25:23 2024 +0530
+
+    Delete style.css
+
+[33mcommit 795deab8e9c0dd3000dfd68b604640c168793ba9[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sun Aug 18 18:24:57 2024 +0530
+
+    Delete script.js
+
+[33mcommit 2a86c16469b52e562d047df61e487e6eb445dfa4[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sun Aug 18 18:24:45 2024 +0530
+
+    Delete README.md
+
+[33mcommit 27a3000b3d53d36739623d1690e490b43802dc99[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sun Aug 18 18:24:33 2024 +0530
+
+    Delete index.html
+
+[33mcommit 0ffd82a7655ed3d51fcf4e0ba2fe2cec0846d0e6[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sun Aug 18 18:23:53 2024 +0530
+
+    Delete idea directory
+
+[33mcommit ee299126a655544561bba573703b7f869d26f6e9[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sun Aug 18 18:23:09 2024 +0530
+
+    Delete Asset directory
+
+[33mcommit f4c2c030e585d74b3499cc91fb5e47dd99628e59[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sun Oct 8 21:17:28 2023 +0530
+
+    Update README.md
+
+[33mcommit 038cc52bfff73179c89ea60ee86c603843b937ba[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Thu Oct 5 19:05:29 2023 +0530
+
+    Update README.md
+
+[33mcommit 8e35be35185f2561e530bee8d674727ca71e2ccd[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Wed Oct 4 22:39:20 2023 +0530
+
+    Update README.md
+
+[33mcommit 055ceb9607afeb820530a4a0158e2a1392d34acb[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Tue Oct 3 22:11:55 2023 +0530
+
+    Update README.md
+
+[33mcommit 69681e8750162c37d2131d284603d146c2c0ec0e[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Fri Sep 29 19:27:40 2023 +0530
+
+    Update README.md
+
+[33mcommit 7f40b5ae6b3d874f0c76a6b075cd46549091035b[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Thu Sep 28 20:09:31 2023 +0530
+
+    Update README.md
+
+[33mcommit b3016801bfd41eee883d213968273da7fbd040e7[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Wed Sep 27 18:40:58 2023 +0530
+
+    Update README.md
+
+[33mcommit 429e0c5baa6eb6395f9314ff7c40e0dd9a2bcfe3[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Tue Sep 26 20:59:30 2023 +0530
+
+    Update README.md
+
+[33mcommit 9ca74d5c07262749e7eefb125592ae6da2dfb4cb[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Mon Sep 25 17:26:24 2023 +0530
+
+    Update README.md
+
+[33mcommit aa0f7c75a8ea3ebd7ba3bbde8aca270727ee2bae[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sun Sep 24 22:53:25 2023 +0530
+
+    Update README.md
+
+[33mcommit 51b6a6aee75e1345add3667755e73d7fa598d227[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sun Sep 24 15:18:42 2023 +0530
+
+    Update README.md
+
+[33mcommit 8e47800595e214d936d6864caf28f122cd2a9a55[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sat Sep 23 21:50:07 2023 +0530
+
+    Update README.md
+
+[33mcommit 30da56323bb2a1113aff96d5668a77786d3abf95[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Fri Sep 22 22:33:33 2023 +0530
+
+    Update README.md
+
+[33mcommit a2c02fcd2a9eda8f600f456b84f9464535da29b2[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Fri Sep 22 00:35:27 2023 +0530
+
+    Update README.md
+
+[33mcommit 5cf8421d5db2d8955aaf33f041e65502a5ca4bec[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Thu Sep 21 13:11:12 2023 +0530
+
+    Update README.md
+
+[33mcommit 4911daf1b7c424e34eb386a5355dfc91e56d974f[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Wed Sep 20 18:47:15 2023 +0530
+
+    Update README.md
+
+[33mcommit d1819ce68f8835ad6a49b8be408690907e954b1b[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Tue Sep 19 22:21:13 2023 +0530
+
+    Update README.md
+
+[33mcommit c221b4f707de0494f26655080d1e07ee856a8347[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Mon Sep 18 22:02:16 2023 +0530
+
+    Update README.md
+
+[33mcommit 495c6756ff9df681a82d001a41f711e5f34983a3[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sun Sep 17 14:55:31 2023 +0530
+
+    Update README.md
+
+[33mcommit 2b911eb834d329deb84031350ea72dbb68927b7a[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sat Sep 16 21:21:40 2023 +0530
+
+    Update README.md
+
+[33mcommit ab2ffadd1fbb1bd2444240cb1c39683f58057349[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Sat Sep 16 00:59:03 2023 +0530
+
+    Update README.md
+
+[33mcommit 474f7c0d9fd17f8348cf91aecb12a1e426f25887[m
+Author: Biswajit Nag <95161306+bng16@users.noreply.github.com>
+Date:   Fri Sep 15 20:17:23 2023 +0530
+
+    Create README.md
+
+[33mcommit 

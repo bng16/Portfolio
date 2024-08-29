@@ -20,6 +20,15 @@ export default {
         'secondary': '#020203',
         'tertiary': '#E7312A',
       },
+      keyframes: {
+        moveLeft: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-1200%)' },
+        },
+      },
+      animation: {
+        moveLeft: 'moveLeft 30s linear infinite',
+      },
     },
   },
   plugins: [],

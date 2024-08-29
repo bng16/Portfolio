@@ -26,10 +26,11 @@ function Projects() {
       },
     });
 
-    tl.from(textRef.current, {
-      scale: 0,
-      opacity: 0,
-    }, 'start')
+    tl
+    // .from(textRef.current, {
+    //   scale: 0,
+    //   opacity: 0,
+    // }, 'start')
 
     .to(textRef.current, {
       top: '5%',
