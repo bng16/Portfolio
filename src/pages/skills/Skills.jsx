@@ -144,7 +144,7 @@ function Skills() {
   }, []);
 
   return (
-    <div ref={skillMainRef} className='relative w-full h-screen flex justify-center items-center '>
+    <div ref={skillMainRef} className='relative w-full h-screen flex justify-center items-center bg-primary'>
       <h1 ref={skillTextRef} className='text-[10vw] font-black '>
         <span className='text-tertiary'>!</span> SKILLS <span className='text-tertiary'>!</span>
       </h1>

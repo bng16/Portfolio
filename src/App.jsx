@@ -26,7 +26,7 @@ const locomotiveScroll = new LocomotiveScroll();
 
 
   return (
-    <main className='font-og relative'>
+    <main className='font-og relative bg-primary'>
     <Navbar/>
     <Hero/>
     <Skills/>

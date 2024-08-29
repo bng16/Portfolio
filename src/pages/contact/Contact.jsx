@@ -7,7 +7,7 @@ import Insta from "../../assets/logo/Social/insta.png";
 
 function Contact() {
   return (
-    <div className="relative w-full h-screen flex flex-col items-center py-[5vw] ">
+    <div className="relative w-full h-screen flex flex-col items-center py-[5vw] bg-primary">
       <h1 className="font-black text-[4vw] mb-[5vw]">CONTACT ME<span className="text-tertiary leading-none">...</span></h1>
       <h1 className="font-thin text-[10vw] leading-none mb-[7vw]">bngooff<span className="text-tertiary">@</span>gmail<span className="text-tertiary">.</span>com</h1>
       <div className='flex gap-[5vw]'>

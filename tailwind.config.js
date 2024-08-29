@@ -23,7 +23,7 @@ export default {
       keyframes: {
         moveLeft: {
           '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-1200%)' },
+          '100%': { transform: 'translateX(-970%)' },
         },
       },
       animation: {

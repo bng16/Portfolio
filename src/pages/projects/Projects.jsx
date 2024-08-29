@@ -74,7 +74,7 @@ function Projects() {
   }, []);
 
   return (
-    <main ref={mainSectionRef} className='relative w-full h-[150vh] flex flex-col items-center'>
+    <main ref={mainSectionRef} className='relative w-full h-[150vh] flex flex-col items-center bg-primary'>
       <h1 ref={textRef} className='font-black absolute top-[20vh] text-secondary text-[10vw]'>
         <span className='text-tertiary'>!</span> PROJECTS <span className='text-tertiary'>!</span>
       </h1>

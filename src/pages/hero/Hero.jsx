@@ -29,7 +29,7 @@ function Hero() {
   }, []);
 
   return (
-    <div id='heroMain' className="w-full h-screen flex relative">
+    <div id='heroMain' className="w-full h-screen flex relative bg-primary">
       <div className="w-2/3 h-screen flex flex-col gap-6 justify-center items-center">
         <h1 className="font-black text-[10vw] leading-none tracking-tighter">
           BISWAJIT NAG<span className="text-tertiary">.</span>
