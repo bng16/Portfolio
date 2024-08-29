@@ -1,3 +1,12 @@
+// components/Skills.js
+import React, { useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useGSAP } from '@gsap/react';
+
+import Skill from './Skill.jsx';
+import SkillCover from './SkillCover.jsx';
+
 import htmlLogo from '../../assets/logo/technologies/01_html.png';
 import cssLogo from '../../assets/logo/technologies/02_css.png';
 import jsLogo from '../../assets/logo/technologies/03_js.png';
@@ -18,11 +27,6 @@ import canvaLogo from '../../assets/logo/technologies/17_canva.png';
 import keyBrLogo from '../../assets/logo/technologies/18_keybr.png';
 import typingClubLogo from '../../assets/logo/technologies/19_typingclub.png';
 import vercelLogo from '../../assets/logo/technologies/20_vercel.png';
-
-import { useRef } from 'react';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { useGSAP } from '@gsap/react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -48,18 +52,18 @@ function Skills() {
       opacity: 0,
     }, 'start')
 
-    .to("#html",{
+    .to("#html", {
       opacity: 1,
       filter: "blur(0px)",
-    },'a')
-    .to("#css",{
+    }, 'a')
+    .to("#css", {
       opacity: 1,
       filter: "blur(0px)",
-    },'a')
-    .to("#js",{
+    }, 'a')
+    .to("#js", {
       opacity: 1,
       filter: "blur(0px)",
-    },'a')
+    }, 'a')
 
     .to("#tailwind", {
       opacity: 1,
@@ -135,37 +139,38 @@ function Skills() {
       filter: "blur(0px)",
     }, 'e')
     .to(skillCoverRef.current, {
-      height: '100vh',
+      height: '110vh',
     }, 'f');
-
   }, []);
 
   return (
     <div ref={skillMainRef} className='relative w-full h-screen flex justify-center items-center '>
-      <h1 ref={skillTextRef} className='text-[10vw] font-black '><span className='text-tertiary'>!</span> SKILLS <span className='text-tertiary'>!</span></h1>
+      <h1 ref={skillTextRef} className='text-[10vw] font-black '>
+        <span className='text-tertiary'>!</span> SKILLS <span className='text-tertiary'>!</span>
+      </h1>
       
-      <img id='html' src={htmlLogo} alt="HTML Logo" className="w-[10vw] absolute" style={{ top: '10%', left: '20%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='css' src={cssLogo} alt="CSS Logo" className="w-[10vw] absolute" style={{ top: '10%', left: '77%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='js' src={jsLogo} alt="JavaScript Logo" className="w-[12vw] absolute" style={{ top: '65%', left: '40%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='tailwind' src={tailwindLogo} alt="Tailwind CSS Logo" className="w-[8vw] absolute" style={{ top: '75%', left: '70%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='react' src={reactLogo} alt="React Logo" className="w-[10vw] absolute" style={{ top: '60%', left: '15%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='gsap' src={gsapLogo} alt="GSAP Logo" className="w-[10vw] absolute" style={{ top: '8%', left: '50%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='ts' src={tsLogo} alt="TypeScript Logo" className="w-[6vw] absolute" style={{ top: '40%', left: '10%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='daisy' src={daisyUiLogo} alt="Daisy UI Logo" className="w-[5vw] absolute" style={{ top: '60%', left: '90%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='reactrouter' src={reactRouterLogo} alt="React Router Logo" className="w-[5vw] absolute" style={{ top: '75%', left: '30%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='redux' src={reduxLogo} alt="Redux Logo" className="w-[5vw] absolute" style={{ top: '80%', left: '5%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='next' src={nextLogo} alt="Next.js Logo" className="w-[5vw] absolute" style={{ top: '5%', left: '5%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='famer' src={famerLogo} alt="Framer Motion Logo" className="w-[3vw] absolute" style={{ top: '10%', left: '65%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='bootstrap' src={bootstrapLogo} alt="Bootstrap Logo" className="w-[3vw] absolute" style={{ top: '30%', left: '35%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='git' src={gitLogo} alt="Git Logo" className="w-[5vw] absolute" style={{ top: '35%', left: '90%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='github' src={gitHubLogo} alt="GitHub Logo" className="w-[5vw] absolute" style={{ top: '45%', left: '75%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='figma' src={figmaLogo} alt="Figma Logo" className="w-[3vw] absolute" style={{ top: '85%', left: '85%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='canva' src={canvaLogo} alt="Canva Logo" className="w-[4vw] absolute" style={{ top: '70%', left: '55%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='keybr' src={keyBrLogo} alt="Keybr Logo" className="w-[5vw] absolute" style={{ top: '30%', left: '65%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='typingclub' src={typingClubLogo} alt="Typing Club Logo" className="w-[4vw] absolute" style={{ top: '20%', left: '45%', filter: 'blur(100px)', opacity: '0' }} />
-      <img id='vercel' src={vercelLogo} alt="Vercel Logo" className="w-[5vw] absolute" style={{ top: '95%', left: '60%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='html' src={htmlLogo} alt="HTML Logo" style={{ top: '10%', left: '20%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='css' src={cssLogo} alt="CSS Logo" style={{ top: '10%', left: '77%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='js' src={jsLogo} alt="JavaScript Logo" style={{ top: '65%', left: '40%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='tailwind' src={tailwindLogo} alt="Tailwind CSS Logo" style={{ top: '75%', left: '70%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='react' src={reactLogo} alt="React Logo" style={{ top: '60%', left: '15%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='gsap' src={gsapLogo} alt="GSAP Logo" style={{ top: '8%', left: '50%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='ts' src={tsLogo} alt="TypeScript Logo" style={{ top: '40%', left: '10%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='daisy' src={daisyUiLogo} alt="Daisy UI Logo" style={{ top: '60%', left: '90%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='reactrouter' src={reactRouterLogo} alt="React Router Logo" style={{ top: '75%', left: '30%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='redux' src={reduxLogo} alt="Redux Logo" style={{ top: '80%', left: '5%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='next' src={nextLogo} alt="Next.js Logo" style={{ top: '5%', left: '5%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='famer' src={famerLogo} alt="Framer Motion Logo" style={{ top: '10%', left: '65%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='bootstrap' src={bootstrapLogo} alt="Bootstrap Logo" style={{ top: '30%', left: '35%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='git' src={gitLogo} alt="Git Logo" style={{ top: '35%', left: '90%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='github' src={gitHubLogo} alt="GitHub Logo" style={{ top: '45%', left: '75%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='figma' src={figmaLogo} alt="Figma Logo" style={{ top: '85%', left: '85%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='canva' src={canvaLogo} alt="Canva Logo" style={{ top: '70%', left: '55%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='keybr' src={keyBrLogo} alt="Keybr Logo" style={{ top: '30%', left: '65%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='typingclub' src={typingClubLogo} alt="Typing Club Logo" style={{ top: '20%', left: '45%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='vercel' src={vercelLogo} alt="Vercel Logo" style={{ top: '95%', left: '60%', filter: 'blur(100px)', opacity: '0' }} />
       
-      <div ref={skillCoverRef} className='w-full bg-primary absolute'></div>
+      <SkillCover ref={skillCoverRef} />
     </div>
   );
 }
