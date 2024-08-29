@@ -164,11 +164,11 @@ function Skills() {
       <Skill id='bootstrap' src={bootstrapLogo} alt="Bootstrap Logo" style={{ top: '30%', left: '35%', filter: 'blur(100px)', opacity: '0' }} />
       <Skill id='git' src={gitLogo} alt="Git Logo" style={{ top: '35%', left: '90%', filter: 'blur(100px)', opacity: '0' }} />
       <Skill id='github' src={gitHubLogo} alt="GitHub Logo" style={{ top: '45%', left: '75%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='figma' src={figmaLogo} alt="Figma Logo" style={{ top: '85%', left: '85%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='figma' src={figmaLogo} alt="Figma Logo" style={{ top: '85%', left: '20%', filter: 'blur(100px)', opacity: '0' }} />
       <Skill id='canva' src={canvaLogo} alt="Canva Logo" style={{ top: '70%', left: '55%', filter: 'blur(100px)', opacity: '0' }} />
       <Skill id='keybr' src={keyBrLogo} alt="Keybr Logo" style={{ top: '30%', left: '65%', filter: 'blur(100px)', opacity: '0' }} />
       <Skill id='typingclub' src={typingClubLogo} alt="Typing Club Logo" style={{ top: '20%', left: '45%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='vercel' src={vercelLogo} alt="Vercel Logo" style={{ top: '95%', left: '60%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='vercel' src={vercelLogo} alt="Vercel Logo" style={{ top: '95%', left: '85%', filter: 'blur(100px)', opacity: '0' }} />
       
       <SkillCover ref={skillCoverRef} />
     </div>
