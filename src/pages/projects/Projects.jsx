@@ -14,17 +14,13 @@ function Projects() {
   const image4Ref = useRef();
   const image5Ref = useRef();
 
-  // Define initial dimensions as variables
-  const initialWidth = '80%';
-  const initialHeight = '80vh';
-
   useGSAP(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: mainSectionRef.current,
         // markers: true,
         start: '38% 50%',
-        end: '1500% 50%',
+        end: '1200% 50%',
         scrub: 1,
         pin: true,
       },
@@ -74,8 +70,6 @@ function Projects() {
       width: '65%',
       height: '65vh',
     }, 'e')
-
-
   }, []);
 
   return (
@@ -85,31 +79,31 @@ function Projects() {
       </h1>
       <div
         ref={image1Ref}
-        className={`w-[${initialWidth}] h-[${initialHeight}] bg-red-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl`}
+        className='w-[80%] h-[80vh] bg-red-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl'
         // style={{ backgroundImage: 'url(./images/1.jpg)' }}
       ></div>
 
       <div
         ref={image2Ref}
-        className={`w-[${initialWidth}] h-[${initialHeight}] bg-blue-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl`}
+        className='w-[80%] h-[80vh] bg-blue-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl'
         // style={{ backgroundImage: 'url(./images/2.jpg)' }}
       ></div>
 
       <div
         ref={image3Ref}
-        className={`w-[${initialWidth}] h-[${initialHeight}] bg-green-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl`}
+        className='w-[80%] h-[80vh] bg-green-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl'
         // style={{ backgroundImage: 'url(./images/3.jpg)' }}
       ></div>
 
       <div
         ref={image4Ref}
-        className={`w-[${initialWidth}] h-[${initialHeight}] bg-yellow-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl`}
+        className='w-[80%] h-[80vh] bg-yellow-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl'
         // style={{ backgroundImage: 'url(./images/4.jpg)' }}
       ></div>
 
       <div
         ref={image5Ref}
-        className={`w-[${initialWidth}] h-[${initialHeight}] bg-red-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl`}
+        className='w-[80%] h-[80vh] bg-red-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl'
         // style={{ backgroundImage: 'url(./images/5.jpg)' }}
       ></div>
     </main>
