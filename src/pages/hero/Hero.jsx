@@ -2,6 +2,7 @@ import HeroEnd from "./HeroEnd";
 import MyName from "./MyName";
 import HeroImg from "./HeroImg";
 import HeroInfo from "./HeroInfo";
+import HeroButton from "./HeroButton";
 
 import { useRef } from "react";
 import gsap from "gsap";
@@ -40,9 +41,7 @@ function Hero() {
       <div className="w-2/3 h-screen flex flex-col gap-6 justify-center items-center">
         <MyName name={'BISWAJIT NAG'}/>
         <HeroInfo/>
-        <button className="bg-tertiary px-[1.5vw] py-[0.5vw] font-bold text-primary rounded-lg hover:rounded-xl ease-in-out duration-300">
-          CONTACT ME
-        </button>
+        <HeroButton/>
       </div>
       <div className="w-1/3 h-screen flex flex-col">
         <HeroImg/>
