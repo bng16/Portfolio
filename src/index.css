@@ -1,27 +1,27 @@
 @font-face {
   font-family: 'Overused Grotesk';
-  src: url('/fonts/OverusedGrotesk-Black.otf') format('opentype');
+  src: url('../src/assets/Fonts/OverusedGrotesk-Black.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Overused Grotesk';
-  src: url('/fonts/OverusedGrotesk-Bold.otf') format('opentype');
+  src: url('../src/assets/fonts/OverusedGrotesk-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Overused Grotesk';
-  src: url('/fonts/OverusedGrotesk-Roman.otf') format('opentype');
+  src: url('../src/assets/fonts/OverusedGrotesk-Roman.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Overused Grotesk';
-  src: url('/fonts/OverusedGrotesk-Light.otf') format('opentype');
+  src: url('../src/assets/fonts/OverusedGrotesk-Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
 }
