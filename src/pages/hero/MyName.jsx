@@ -21,7 +21,7 @@ function MyName({ name }) {
 
   useGSAP(() => {
     const entryTl = gsap.timeline({
-      delay: 1,
+      delay: 0.1,
       duration: 1, // Increase duration for a slower effect
     });
     entryTl.from(myNameRef.current.querySelectorAll('span'), {
