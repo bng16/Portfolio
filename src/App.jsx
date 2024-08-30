@@ -27,12 +27,12 @@ const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <main className='font-og relative bg-primary'>
-    {/* <Navbar/>
+    <Navbar/>
     <Hero/>
-    <Skills/> */}
+    <Skills/>
     <SlidingProject/>
-    {/* <Projects/>
-    <Contact/> */}
+    <Projects/>
+    <Contact/>
     </main>
   )
 }
