@@ -34,6 +34,7 @@ function Skills() {
   const skillMainRef = useRef(null);
   const skillTextRef = useRef(null);
   const skillCoverRef = useRef(null);
+  const skillCover2Ref = useRef(null);
 
   useGSAP(() => {
     const tl = gsap.timeline({
@@ -138,39 +139,53 @@ function Skills() {
       opacity: 1,
       filter: "blur(0px)",
     }, 'e')
+    .from(skillCoverRef.current, {
+      x: '200vw',
+    }, 'f')
+    .from(skillCover2Ref.current, {
+      x: '-200vw',
+    }, 'f')
     .to(skillCoverRef.current, {
-      height: '110vh',
-    }, 'f');
+      width: "200vw",
+      height: "200vw",
+      backgroundColor: "#FFFFFF",
+    }, 'g')
+    .to(skillCover2Ref.current, {
+      width: "200vw",
+      height: "200vw",
+      backgroundColor: "#FFFFFF",
+    }, 'g');
   }, []);
 
   return (
-    <div ref={skillMainRef} className='relative w-full h-screen flex justify-center items-center bg-primary'>
+    <div ref={skillMainRef} className='relative w-full h-screen flex justify-center items-center bg-primary overflow-hidden'>
       <h1 ref={skillTextRef} className='text-[10vw] font-black '>
         <span className='text-tertiary'>!</span> SKILLS <span className='text-tertiary'>!</span>
       </h1>
       
-      <Skill id='html' src={htmlLogo} alt="HTML Logo" style={{ top: '10%', left: '20%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='css' src={cssLogo} alt="CSS Logo" style={{ top: '10%', left: '77%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='js' src={jsLogo} alt="JavaScript Logo" style={{ top: '65%', left: '40%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='tailwind' src={tailwindLogo} alt="Tailwind CSS Logo" style={{ top: '75%', left: '70%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='react' src={reactLogo} alt="React Logo" style={{ top: '60%', left: '15%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='gsap' src={gsapLogo} alt="GSAP Logo" style={{ top: '8%', left: '50%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='ts' src={tsLogo} alt="TypeScript Logo" style={{ top: '40%', left: '10%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='daisy' src={daisyUiLogo} alt="Daisy UI Logo" style={{ top: '60%', left: '90%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='reactrouter' src={reactRouterLogo} alt="React Router Logo" style={{ top: '75%', left: '30%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='redux' src={reduxLogo} alt="Redux Logo" style={{ top: '80%', left: '5%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='next' src={nextLogo} alt="Next.js Logo" style={{ top: '5%', left: '5%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='famer' src={famerLogo} alt="Framer Motion Logo" style={{ top: '10%', left: '65%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='bootstrap' src={bootstrapLogo} alt="Bootstrap Logo" style={{ top: '30%', left: '35%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='git' src={gitLogo} alt="Git Logo" style={{ top: '35%', left: '90%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='github' src={gitHubLogo} alt="GitHub Logo" style={{ top: '45%', left: '75%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='figma' src={figmaLogo} alt="Figma Logo" style={{ top: '85%', left: '20%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='canva' src={canvaLogo} alt="Canva Logo" style={{ top: '70%', left: '55%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='keybr' src={keyBrLogo} alt="Keybr Logo" style={{ top: '30%', left: '65%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='typingclub' src={typingClubLogo} alt="Typing Club Logo" style={{ top: '20%', left: '45%', filter: 'blur(100px)', opacity: '0' }} />
-      <Skill id='vercel' src={vercelLogo} alt="Vercel Logo" style={{ top: '95%', left: '85%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='html' src={htmlLogo} size={10} alt="HTML Logo" style={{ top: '10%', left: '20%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='css' src={cssLogo} size={10} alt="CSS Logo" style={{ top: '10%', left: '77%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='js' src={jsLogo} size={12} alt="JavaScript Logo" style={{ top: '65%', left: '40%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='tailwind' src={tailwindLogo} size={8} alt="Tailwind CSS Logo" style={{ top: '75%', left: '70%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='react' src={reactLogo} size={10} alt="React Logo" style={{ top: '60%', left: '15%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='gsap' src={gsapLogo} size={10} alt="GSAP Logo" style={{ top: '8%', left: '50%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='ts' src={tsLogo} size={6} alt="TypeScript Logo" style={{ top: '40%', left: '10%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='daisy' src={daisyUiLogo} size={5} alt="Daisy UI Logo" style={{ top: '60%', left: '90%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='reactrouter' src={reactRouterLogo} size={5} alt="React Router Logo" style={{ top: '75%', left: '30%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='redux' src={reduxLogo} size={5} alt="Redux Logo" style={{ top: '80%', left: '5%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='next' src={nextLogo} size={5} alt="Next.js Logo" style={{ top: '5%', left: '5%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='famer' src={famerLogo} size={3} alt="Framer Motion Logo" style={{ top: '10%', left: '65%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='bootstrap' src={bootstrapLogo} size={3} alt="Bootstrap Logo" style={{ top: '30%', left: '35%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='git' src={gitLogo} size={5} alt="Git Logo" style={{ top: '35%', left: '90%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='github' src={gitHubLogo} size={5} alt="GitHub Logo" style={{ top: '45%', left: '75%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='figma' src={figmaLogo} size={3} alt="Figma Logo" style={{ top: '85%', left: '20%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='canva' src={canvaLogo} size={4} alt="Canva Logo" style={{ top: '70%', left: '55%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='keybr' src={keyBrLogo} size={5} alt="Keybr Logo" style={{ top: '30%', left: '65%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='typingclub' src={typingClubLogo} size={4} alt="Typing Club Logo" style={{ top: '20%', left: '45%', filter: 'blur(100px)', opacity: '0' }} />
+      <Skill id='vercel' src={vercelLogo} size={5} alt="Vercel Logo" style={{ top: '95%', left: '85%', filter: 'blur(100px)', opacity: '0' }} />
       
       <SkillCover ref={skillCoverRef} />
+      <SkillCover ref={skillCover2Ref} />
     </div>
   );
 }
