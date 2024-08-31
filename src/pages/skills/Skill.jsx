@@ -1,5 +1,5 @@
-const Skill = ({ id, src, alt, style, size }) => {
-  return <img id={id} src={src} alt={alt} className={`w-[${size}vw] absolute`} style={style} />;
+const Skill = ({ id, src, alt, style }) => {
+  return <img id={id} src={src} alt={alt} className='absolute' style={style} />;
 };
 
 export default Skill;
