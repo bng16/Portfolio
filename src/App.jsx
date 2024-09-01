@@ -10,7 +10,7 @@ import gsap from 'gsap';
 import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
-  const locomotiveScroll = useRef(null); // Use ref to manage LocomotiveScroll instance
+  const locomotiveScroll = useRef(null); 
   const cursorRef = useRef(null);
   const [compHover, setCompHover] = useState(false);
 
@@ -66,14 +66,14 @@ function App() {
         ref={cursorRef}
         className="min-w-[1vw] min-h-[1vw] px-2 py-1 rounded-full bg-tertiary text-primary fixed z-[1000]"
       >
-        {compHover && (compHover === 1 ? 'Click to Checkout' : (compHover===2 ? 'Click to Copy' : "Copied"))} </div> <div>
+        {compHover && (compHover === 1 ? 'View' : (compHover===2 ? 'Click to Copy' : "Copied"))} </div> <div>
       </div>
 
       <Navbar/>
       <Hero/>
       <Skills/>
       <SlidingProject/>
-      <Projects/>
+      <Projects isProjectHover={setCompHover}/>
       <Contact isEmailHover={setCompHover}/>
     </main>
   );

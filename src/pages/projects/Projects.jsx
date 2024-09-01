@@ -11,7 +11,7 @@ import img3 from '../../assets/Projects/3.jpg';
 import img4 from '../../assets/Projects/4.jpg';
 import img5 from '../../assets/Projects/5.jpg';
 
-function Projects() {
+function Projects({isProjectHover}) {
   const mainSectionRef = useRef();
   const textRef = useRef();
   const image1Ref = useRef();
@@ -53,17 +53,23 @@ function Projects() {
 
       <a href="https://www.google.co.in/" target="_blank">
         <div
-          ref={image1Ref}
+            ref={image1Ref}
           className="w-[80%] h-[80vh] bg-red-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl"
           style={{ backgroundImage: `url(${img1})` }}
+
+          onMouseEnter={() => isProjectHover(1)}
+          onMouseLeave={() => isProjectHover(false)}
         ></div>
       </a>
 
-      <a href="https://www.google.co.in/" target="_blank">
+      <a href="https://www.facebook.com/" target="_blank">
         <div
           ref={image2Ref}
           className="w-[80%] h-[80vh] bg-blue-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl"
           style={{ backgroundImage: `url(${img2})` }}
+
+          onMouseEnter={() => isProjectHover(1)}
+          onMouseLeave={() => isProjectHover(false)}
         ></div>
       </a>
 
@@ -72,6 +78,9 @@ function Projects() {
           ref={image3Ref}
           className="w-[80%] h-[80vh] bg-green-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl"
           style={{ backgroundImage: `url(${img3})` }}
+
+          onMouseEnter={() => isProjectHover(1)}
+          onMouseLeave={() => isProjectHover(false)}
         ></div>
       </a>
 
@@ -80,6 +89,9 @@ function Projects() {
           ref={image4Ref}
           className="w-[80%] h-[80vh] bg-yellow-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl"
           style={{ backgroundImage: `url(${img4})` }}
+
+          onMouseEnter={() => isProjectHover(1)}
+          onMouseLeave={() => isProjectHover(false)}
         ></div>
       </a>
 
@@ -88,6 +100,9 @@ function Projects() {
           ref={image5Ref}
           className="w-[80%] h-[80vh] bg-red-200 bg-cover bg-center absolute top-[130%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl"
           style={{ backgroundImage: `url(${img5})` }}
+
+          onMouseEnter={() => isProjectHover(1)}
+          onMouseLeave={() => isProjectHover(false)}
         ></div>
       </a>
     </main>
