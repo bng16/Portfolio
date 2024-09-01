@@ -5,11 +5,20 @@ import Insta from "../../assets/logo/Social/insta.png";
 
 
 
-function Contact() {
+function Contact({isEmailHover}) {
   return (
     <div className="relative w-full h-screen flex flex-col items-center py-[5vw] bg-primary">
       <h1 className="font-black text-[4vw] mb-[5vw]">CONTACT ME<span className="text-tertiary leading-none">...</span></h1>
-      <h1 className="font-thin text-[10vw] leading-none mb-[7vw]">bngooff<span className="text-tertiary">@</span>gmail<span className="text-tertiary">.</span>com</h1>
+      <h1 
+        className="font-thin text-[10vw] leading-none mb-[7vw] cursor-pointer"
+        onClick={() => {
+          window.navigator.clipboard.writeText('bngooff@gmail.com')
+          isEmailHover(3)
+
+        }}
+        onMouseEnter={() => isEmailHover(2)}
+        onMouseLeave={() => isEmailHover(false)}
+      >bngooff<span className="text-tertiary">@</span>gmail<span className="text-tertiary">.</span>com</h1>
       <div className='flex gap-[5vw]'>
       {
       [[xIcon,'https://x.com/BiswajitNaag'],
