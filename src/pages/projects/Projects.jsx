@@ -42,11 +42,11 @@ function Projects({isProjectHover}) {
       .to(image3Ref.current, { width: "60%", height: "60vh" }, "d")
       .to(image5Ref.current, { top: "46%" }, "e")
       .to(image4Ref.current, { width: "65%", height: "65vh" }, "e")
-      .to(image5Ref.current, { bottom:'0px',width: "100%", height: "100vh" }, "f");
+      .to(image5Ref.current, { bottom:'0px',width: "120%", height: "120vh" }, "f");
   }, []);
 
   return (
-    <main ref={mainSectionRef} className="relative w-full h-[150vh] flex flex-col items-center bg-primary">
+    <main ref={mainSectionRef} className="relative w-full h-[150vh] flex flex-col items-center bg-primary overflow-hidden">
       <h1 ref={textRef} className="font-black absolute top-[20vh] text-secondary text-[10vw]">
         <span className="text-tertiary">!</span> PROJECTS <span className="text-tertiary">!</span>
       </h1>
