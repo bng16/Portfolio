@@ -61,7 +61,7 @@ function App() {
   }, []);
 
   return (
-    <main className='font-og relative bg-primary select-none w-full h-screen' data-scroll-container>
+    <main className='font-og relative bg-primary select-none w-full h-screen ' data-scroll-container>
       <div
         ref={cursorRef}
         className="min-w-[1vw] min-h-[1vw] px-2 py-1 rounded-full bg-tertiary text-primary fixed z-[1000]"
