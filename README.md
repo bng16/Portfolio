@@ -29,15 +29,22 @@ This portfolio website highlights my skills and projects in web development. It 
 
 ## Technologies
 
-This portfolio utilizes various technologies including HTML, CSS, JavaScript, React, Tailwind CSS and GSAP.
+This portfolio utilizes a range of technologies, including:
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **React**
+- **TailwindCSS**
+- **GSAP**
 
 ## Installation
 
 To run this project locally, clone the repository and install the dependencies:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/bng16/Portfolio.git
+cd Portfolio
 npm install
 ```
 
@@ -48,6 +55,8 @@ To start the development server:
 ```bash
 npm run dev
 ```
+
+Open `http://localhost:3000` in your browser to view the portfolio.
 
 ## Contributing
 
