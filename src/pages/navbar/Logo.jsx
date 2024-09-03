@@ -4,6 +4,7 @@ import gsap from "gsap";
 function Logo() {
   const logoRef = useRef(null);
   const [logoState, setLogoState] = useState(false);
+  
 
   useEffect(() => {
     gsap.to(logoRef.current, {
