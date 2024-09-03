@@ -23,7 +23,7 @@ function Logo() {
       <img
         ref={logoRef}
         className="w-[2vw]"
-        src="src/assets/logo/BngLogo.svg" // Updated path format
+        src="src/assets/logo/BngLogo.svg"
         alt="Logo"
       />
       <h1 className="font-black text-[2vw] tracking-tighter leading-none">
@@ -34,3 +34,4 @@ function Logo() {
 }
 
 export default Logo;
+
