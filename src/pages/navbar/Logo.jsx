@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import gsap from "gsap";
 
-import bngLogo from "src/assets/logo/BngLogo.svg";
+import bngLogo from "../../assets/logo/BngLogo.svg";
 
 function Logo() {
   const logoRef = useRef(null);
