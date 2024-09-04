@@ -7,11 +7,11 @@ import ProjectsHeading from "./ProjectsHeading";
 
 gsap.registerPlugin(ScrollTrigger);
 
-import img1 from '../../assets/Projects/1.jpg';
-import img2 from '../../assets/Projects/2.jpg';
-import img3 from '../../assets/Projects/3.jpg';
-import img4 from '../../assets/Projects/4.jpg';
-import img5 from '../../assets/Projects/5.jpg';
+import img1 from '../../assets/projects/1.jpg';
+import img2 from '../../assets/projects/2.jpg';
+import img3 from '../../assets/projects/3.jpg';
+import img4 from '../../assets/projects/4.jpg';
+import img5 from '../../assets/projects/5.jpg';
 
 function Projects({ isProjectHover }) {
   const mainSectionRef = useRef();
