@@ -61,28 +61,28 @@ function Projects({ isProjectHover }) {
         imgAlt="Project 2"
         href="https://www.facebook.com/"
         imgRef={imageRefs[1]}
-        onHover={(hovering) => isProjectHover(hovering ? 2 : false)}
+        onHover={(hovering) => isProjectHover(hovering ? 1 : false)}
       />
       <ProjectImage
         imgSrc={img3}
         imgAlt="Project 3"
         href="https://www.google.co.in/"
         imgRef={imageRefs[2]}
-        onHover={(hovering) => isProjectHover(hovering ? 3 : false)}
+        onHover={(hovering) => isProjectHover(hovering ? 1 : false)}
       />
       <ProjectImage
         imgSrc={img4}
         imgAlt="Project 4"
         href="https://www.google.co.in/"
         imgRef={imageRefs[3]}
-        onHover={(hovering) => isProjectHover(hovering ? 4 : false)}
+        onHover={(hovering) => isProjectHover(hovering ? 1 : false)}
       />
       <ProjectImage
         imgSrc={img5}
         imgAlt="Project 5"
         href="https://www.google.co.in/"
         imgRef={imageRefs[4]}
-        onHover={(hovering) => isProjectHover(hovering ? 5 : false)}
+        onHover={(hovering) => isProjectHover(hovering ? 1 : false)}
       />
     </main>
   );
