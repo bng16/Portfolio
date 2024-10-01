@@ -22,9 +22,9 @@ function Logo() {
       onMouseEnter={() => setLogoState(true)}
       onMouseLeave={() => setLogoState(false)}
     >
-      <img ref={logoRef} className="w-[2vw]" src={bngLogo} alt="Logo" />
+      <img ref={logoRef} className="w-[5vw] md:w-[2vw]" src={bngLogo} alt="Logo" />
 
-      <h1 className="font-black text-[2vw] tracking-tighter leading-none">
+      <h1 className="font-black text-[5vw] md:text-[2vw] tracking-tighter leading-none">
         Bng<span className="text-tertiary">.</span>
       </h1>
     </div>

@@ -19,7 +19,7 @@ function HeroImg() {
 
   return (
     <>
-      <div className="flex-grow"></div>
+      <div className="flex-grow "></div>
         <img
           ref={heroImageRef}
           src={BngImage}

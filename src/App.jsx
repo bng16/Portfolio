@@ -15,9 +15,21 @@ function App() {
   const cursorRef = useRef(null);
   const [compHover, setCompHover] = useState(false);
   const [isLoading, setIsLoading] = useState(true); // Loading state
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768); // Track screen size (small screen < 768px)
+
+  // Update screen size on resize
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 768);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   useEffect(() => {
-    if (!isLoading) {
+    if (!isLoading && !isSmallScreen) {
       locomotiveScroll.current = new LocomotiveScroll({
         el: document.querySelector('[data-scroll-container]'),
         smooth: true,
@@ -62,7 +74,7 @@ function App() {
         locomotiveScroll.current.destroy(); // Clean up LocomotiveScroll instance
       };
     }
-  }, [isLoading]); // Only initialize LocomotiveScroll after loading is complete
+  }, [isLoading, isSmallScreen]); // Only initialize LocomotiveScroll after loading and on larger screens
 
   return (
     <>
@@ -72,17 +84,22 @@ function App() {
         <main className='font-og relative bg-primary select-none w-full h-screen' data-scroll-container>
           <div
             ref={cursorRef}
-            className="min-w-[1vw] min-h-[1vw] px-2 py-1 rounded-full bg-tertiary text-primary fixed z-[1000]"
+            className="lg:min-w-[1vw] lg:min-h-[1vw] lg:px-2 lg:py-1 lg:rounded-full lg:bg-tertiary lg:text-primary lg:fixed lg:z-[1000]"
           >
             {compHover && (compHover === 1 ? 'View' : (compHover === 2 ? 'Click to Copy' : "Copied"))}
           </div>
-          
+
           <Navbar />
           <Hero />
-          <Skills />
-          <SlidingProject />
-          <Projects isProjectHover={setCompHover} />
-          <Contact isEmailHover={setCompHover} />
+
+          {!isSmallScreen && (
+            <>
+              <Skills />
+              <SlidingProject />
+              <Projects isProjectHover={setCompHover} />
+              <Contact isEmailHover={setCompHover} />
+            </>
+          )}
         </main>
       )}
     </>

@@ -21,7 +21,7 @@ function NavItems() {
             <img
               src={social[0]}
               alt={`Social icon ${index}`}
-              className='cursor-pointer w-[2vw] opacity-100 hover:opacity-70 ease-in-out duration-300'
+              className='cursor-pointer w-[5vw] md:w-[2vw] opacity-100 hover:opacity-70 ease-in-out duration-300'
             />
           </a>
         )

@@ -17,7 +17,7 @@ function HeroInfo() {
   return (
     <p
           ref={introTextRef}
-          className="w-[30vw] font-normal text-center leading-tight text-[1.1vw]"
+          className="w-[30vw] font-normal text-center leading-tight text-[1.1vw] hidden sm:block"
         >
           I’m a frontend-focused full-stack developer who turns ideas into
           sleek, responsive digital experiences. Work with me, and gain the
