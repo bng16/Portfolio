@@ -32,3 +32,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.loading-screen {
+  background-color: #090909; /* Change this color to match your design */
+}
+
+.loading-text {
+  color: #fd2c2c; /* Text color */
+}
