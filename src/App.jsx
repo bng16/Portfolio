@@ -8,14 +8,14 @@ import Contact from './pages/contact/Contact';
 import { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import LocomotiveScroll from 'locomotive-scroll';
-import LoadingScreen from './components/LoadingScreen'; // Import the loading screen
+import LoadingScreen from './components/LoadingScreen'; // Import the loading screen.
 
 function App() {
   const locomotiveScroll = useRef(null); 
   const cursorRef = useRef(null);
   const [compHover, setCompHover] = useState(false);
-  const [isLoading, setIsLoading] = useState(true); // Loading state
-  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768); // Track screen size (small screen < 768px)
+  const [isLoading, setIsLoading] = useState(true); // Loading state.
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768); // Track screen size (small screen < 768px).
 
   // Update screen size on resize
   useEffect(() => {
@@ -71,10 +71,10 @@ function App() {
         main.removeEventListener("mouseenter", handleMouseEnter);
         main.removeEventListener("mousemove", handleMouseMove);
         main.removeEventListener("mouseleave", handleMouseLeave);
-        locomotiveScroll.current.destroy(); // Clean up LocomotiveScroll instance
+        locomotiveScroll.current.destroy(); // Clean up LocomotiveScroll instance.
       };
     }
-  }, [isLoading, isSmallScreen]); // Only initialize LocomotiveScroll after loading and on larger screens
+  }, [isLoading, isSmallScreen]); // Only initialize LocomotiveScroll after loading and on larger screens.
 
   return (
     <>
